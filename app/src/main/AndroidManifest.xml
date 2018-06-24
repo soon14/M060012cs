@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cg.mrice">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name=".BootReciver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".LotteryAllDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewsDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CNewsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RulesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VersionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LotteryDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.ContentActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.HistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.LotteryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.NewsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.XCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.SetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.ZSActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.HistoryDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PieChartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BarChartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InvertedLineChartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ModifyPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragment.YaoHaoAcitivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".fragment.YaoHaoDetails"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".fragment.YaoHaoChartActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".WWPage"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/l_item"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:button="@null"
+        android:gravity="center"
+        android:id="@+id/cb"
+        android:background="@drawable/ball_select"
+        android:text="1"
+        />
+</LinearLayout>

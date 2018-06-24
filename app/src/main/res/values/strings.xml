@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">新疆时时彩</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="action_settings">设置</string>
+    <string name="string_introduction">
+        新疆时时彩是一家为用户提供最新彩票资讯的公司和平台。
+        \n我们拥有完善的治理机制，专业化的管理团队。
+        \n拥有人性化的服务平台和彩票知识展示最好的资讯服务平台，为客户提供个性化产品和服务。
+    </string>
+    <string name="string_about_me">
+        Email: | ffcmax@gmail.com
+    </string>
+    <string name="login_out">再按一次退出应用</string>
+    <string name="simple_circle_button_example">Simple Circle Button Example</string>
+    <string name="text_inside_circle_button_example">Text Inside Circle Button Example</string>
+    <string name="text_outside_circle_button_example">Text Outside Circle Button Example</string>
+    <string name="ham_button_example">Ham Button Example</string>
+    <string name="square_and_piece_corner_radius_example">Square And Piece Corner Radius Example</string>
+    <string name="boom_example">Boom Example</string>
+    <string name="button_place_alignment_example">Button Place Alignment Example</string>
+    <string name="order_example">Order Example</string>
+    <string name="actionbar_example">ActionBar Example</string>
+    <string name="tool_bar_example">ToolBar Example</string>
+    <string name="draggable_example">Draggable Example</string>
+    <string name="ease_example">Ease Example</string>
+    <string name="listener_example">Listener Example</string>
+    <string name="control_example">Control Example</string>
+    <string name="share_example">Share Example</string>
+    <string name="list_example">List Example</string>
+    <string name="recycler_view_example">Recycler View Example</string>
+    <string name="fragment_example">Fragment Example</string>
+    <string name="change_boom_button_example">Change Boom Button Example</string>
+    <string name="three_d_animation_example">3D Animation Example</string>
+    <string name="custom_position_example">Custom Position Example</string>
+    <string name="fade_views_example">Fade Views Example</string>
+    <string name="orientation_example">Orientation Example</string>
+
+    <string name="text_inside_circle_button_text_normal">Text Inside Circle Button(Normal)</string>
+    <string name="text_inside_circle_button_text_highlighted">Text Inside Circle Button(Highlighted)</string>
+    <string name="text_inside_circle_button_text_unable">Text Inside Circle Button(Unable)</string>
+
+    <string name="text_outside_circle_button_text_normal">Text Outside Circle Button(Normal)</string>
+    <string name="text_outside_circle_button_text_highlighted">Text Outside Circle Button(Highlighted)</string>
+    <string name="text_outside_circle_button_text_unable">Text Outside Circle Button(Unable)</string>
+
+    <string name="text_ham_button_text_normal">Ham Button Text(Normal)</string>
+    <string name="text_ham_button_text_highlighted">Ham Button Text(Highlighted)</string>
+    <string name="text_ham_button_text_unable">Ham Button Text(Unable)</string>
+    <string name="text_ham_button_sub_text_normal">Ham Button Sub Text(Normal)</string>
+    <string name="text_ham_button_sub_text_highlighted">Ham Button Sub Text(Highlighted)</string>
+    <string name="text_ham_button_sub_text_unable">Ham Button Sub Text(Unable)</string>
+    <string name="action_share">分享</string>
+    <string name="input_verifycode">请输入验证码</string>
+    <string name="input_correct_verifycode">请输入正确的验证码</string>
+    <string name="verifycode_failed">获取验证码失败</string>
+    <string name="verifycode_repeat">10分钟不能重复发送</string>
+    <!--倒计时输入框-->
+    <string name="ui_get_verifycode">获取验证码</string>
+    <string name="ui_input_your_verifycode">请输入验证码</string>
+    <string name="ui_SMS_verifyCode">短信验证码</string>
+    <string name="verifyCode">验证码</string>
+    <string name="ui_count_prompt">(%d秒后)重新获取</string>
+    <string name="ui_count_prompt2">%d秒</string>
+    <string name="again_send">重新获取</string>
+    <string name="network_disable">请检查网络是否连接</string>
+    <!--注册登录-->
+    <string name="register">立即注册</string>
+    <string name="modifyPwd">修改密码</string>
+    <string name="login">登录</string>
+    <string name="password">登录密码</string>
+    <string name="new_password">新密码</string>
+    <string name="password_rule">6-15位数字字母组合</string>
+    <string name="phone_number">手机号码</string>
+    <string name="username">用户名</string>
+    <string name="input_username">请输入您的用户名</string>
+    <string name="input_your_number">请输入手机号码</string>
+    <string name="input_your_username">请输入用户名</string>
+    <string name="username_rule">用户名只支持字母,数字,下划线</string>
+    <string name="number_input_error">请输入正确的11位手机号码</string>
+    <string name="input_your_password">请输入您的密码</string>
+    <string name="input_your_password_error">请输入6-15位密码</string>
+    <string name="password_rule_digits">asdfghjklzxcvbnmqwertyuiopASDFGHJKLZXCVBNMQWERTYUIOP1234567890</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">模拟</string>
+    <string name="title_notifications">开奖</string>
+</resources>

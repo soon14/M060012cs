@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#002b49</color>
+    <color name="colorPrimaryDark">#002b49</color>
+    <color name="colorAccent">#002b49</color>
+    <color name="colorTheme">#002b49</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="main_blue">#ff00abed</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="colorTitle">#666</color>
+    <color name="orange">#ff7f02</color>
+    <color name="lightGreen">#00ae97</color>
+    <!--item的分割线-->
+    <color name="colorLineItem">#FFDDDDDD</color>
+    <!-- 按钮禁用时的背景色 -->
+    <color name="disable_btn_bg">#E4E4E4</color>
+    <!-- 按钮禁用时的文字颜色 -->
+    <color name="disable_btn_text_color">#C9C9C9</color>
+    <color name="gray_333333">#333333</color>
+    <color name="gray_d7d7d7">#d7d7d7</color>
+    <!--正文文字颜色-->
+    <color name="colorContent">#ff333333</color>
+    <color name="lightGreen2">#ccffff</color>
+
+    <color name="line1">#ff8308</color>
+    <color name="line2">#085db0</color>
+    <!-- 商户开通-输入完成时文字颜色(RegisterActivity) -->
+    <color name="line3">#76aef1</color>
+    <color name="line4">#e60012</color>
+    <color name="line5">#13ae67</color>
+    <color name="line6">#2dafa3</color>
+    <color name="line7">#ff99cc00</color>
+    <color name="line8">#ffffbb33</color>
+    <color name="line9">#ffff4444</color>
+    <color name="line10">#666</color>
+    <color name="dj">#990099</color>
+    <color name="dy">#DB31EE</color>
+    <color name="xj">#006633</color>
+    <color name="fj">#663333</color>
+    <color name="fy">#ACA96C</color>
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="btn_login_normal">#00acff</color>
+</resources>

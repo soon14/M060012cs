@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/plat_activity_input_verifycode_lable_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="验证码"
+        android:textColor="@color/colorContent"
+        android:textSize="@dimen/font_size_17"
+        android:visibility="visible" />
+
+    <com.cg.mrice.view.ClearEditText
+        android:id="@+id/plat_activity_input_verifycode_edittext"
+        style="@style/edit_text_num_style"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/common_size_10"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:hint="@string/ui_SMS_verifyCode"
+        android:paddingLeft="@dimen/common_size_12"
+        android:singleLine="true"
+        android:textSize="@dimen/font_size_small" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_d7d7d7" />
+
+    <Button
+        android:id="@+id/plat_activity_input_get_verifycode_button"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:paddingLeft="@dimen/common_size_8"
+        android:paddingRight="@dimen/common_size_15"
+        android:text="@string/ui_get_verifycode"
+        android:textColor="@color/colorContent"
+        android:textSize="@dimen/font_size_small" />
+
+</LinearLayout>

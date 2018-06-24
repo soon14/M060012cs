@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/qh"
+        android:layout_width="60dp"
+        android:layout_height="260dp"
+        android:background="@color/dy"
+        android:gravity="center"
+        android:text="本\n月\n各\n彩\n种\n热\n度\n分\n布"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chartTop"
+        android:layout_width="match_parent"
+        android:layout_height="260dp" />
+</LinearLayout>
